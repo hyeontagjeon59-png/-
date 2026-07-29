@@ -10,7 +10,7 @@ button, a { -webkit-tap-highlight-color:transparent; }
 nav { display:flex; gap:1.4rem; color:var(--muted); font-size:.9rem; } nav a:hover { color:var(--gold-hi); }
 main { min-height:calc(100vh - 172px); }
 .site-footer { max-width:1280px; margin:auto; padding:28px 32px 36px; border-top:1px solid #ffffff18; color:#8fa1b9; display:flex; justify-content:space-between; gap:1rem; font-size:.78rem; } .site-footer p{margin:0;}
-.hero { max-width:1280px; min-height:calc(100vh - 76px); margin:auto; padding:clamp(55px,8vw,110px) 32px 60px; display:grid; grid-template-columns:.95fr 1.05fr; align-items:center; gap:2rem; }
+.hero { max-width:1280px; min-height:calc(100vh - 76px); margin:auto; padding:clamp(55px,8vw,110px) 32px 60px; display:grid; grid-template-columns:.95fr 1.05fr; align-items:center; gap:2rem; background-image:linear-gradient(90deg,#081325 3%,#081325e8 40%,#0813259c 65%,#081325cf 100%),url('https://commons.wikimedia.org/wiki/Special:FilePath/Tumuli%20Park%2C%20Gyeongju%2C%20South%20Korea%20%283165750745%29.jpg?width=1920'); background-size:cover; background-position:center; }
 .kicker { margin:0 0:12px; color:var(--gold); font-weight:700; font-size:.74rem; letter-spacing:.16em; }
 .hero h1, .page-title { font-family:var(--serif); font-weight:600; line-height:1.25; letter-spacing:-.045em; } .hero h1{font-size:clamp(2.85rem,6vw,5.7rem); margin:0;} .hero h1 span { display:block; color:var(--gold-hi); }
 .hero-copy { max-width:31rem; margin:27px 0 34px; color:#c6d0dc; font-size:1.05rem; line-height:1.85; }
